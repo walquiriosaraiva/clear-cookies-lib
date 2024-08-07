@@ -1,0 +1,30 @@
+{
+  "name": "clear-cookies-lib",
+  "version": "1.0.0",
+  "description": "Biblioteca para limpar cookies em JavaScript",
+  "main": "lib/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha",
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/walquiriosaraiva/clear-cookies-lib.git"
+  },
+  "keywords": [
+    "cookies",
+    "clear",
+    "library",
+    "javascript"
+  ],
+  "author": "Walquirio Saraiva Rocha",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  }
+}
